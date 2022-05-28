@@ -1,0 +1,63 @@
+html {
+    animation-name: backgroundColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+  
+@keyframes backgroundColor {
+  0% {
+    background-color: #6C0103ff;
+  }
+  25% {
+    background-color: #831110ff;
+  }
+  50% {
+    background-color: #AE0001ff;
+  }
+  75% {
+    background-color: #C70201ff;
+  }
+  100% {
+    background-color: #D90502ff;
+  }
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+}
+
+button {
+  padding: 1rem;
+  font-family: "Roboto Mono", sans-serif;
+  border: none;
+  font-weight: 600;
+  background-color: #000;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #6C0103ff;
+  cursor: pointer;
+}
+
+main {
+  background-color: rgba(255, 255, 255, .9);
+  text-align: center;
+  width: 500px;
+  padding: 2rem;
+  margin: auto;
+  position: relative;
+  top: 25px;
+}
+
+.quote {
+  font-family: "Roboto Mono", sans-serif;
+  padding: 1rem;
+}
+
+#authorOutput {
+  font-weight: 600;
+}
